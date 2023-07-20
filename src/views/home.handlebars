@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="list-group list">
+    {{#if products}}
+      {{#each products}}
+        <div class="list-group-item">
+          <div class="d-flex w-100 justify-content-between flex-column">
+            <h2 class="mb-1 title">{{title}}</h2>
+            <p class="mb-1"> <strong>Descripción:</strong> {{description}}</p>
+            <p class="mb-1"><strong>Codigo:</strong> {{code}}</p>
+            <p class="mb-1"><strong>Precio:</strong> ${{price}}</p>
+            <p class="mb-1"><strong>Status:</strong> {{status}}</p>
+            <p class="mb-1"><strong>Stock:</strong> {{code}}</p>
+            <p class="mb-1"> <strong>Categoria:</strong> {{category}}</p>
+            <img src="../data/images/imagen1.png" width="50" height="50" />
+          </div>
+        </div>
+      {{/each}}
+    {{else}}
+      <h1>Aún no se han creado productos</h1>
+    {{/if}}
+    <div class="list-group-item">
+      <p><strong>Limite:</strong> {{limit}}</p>
+      <p> <strong>Cantidad:</strong> {{quantity}} </p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,70 @@
+<main class="main">
+  <h1 class="title">Realtime Products</h1>
+  <form action="" class="form-container" id="add-product-form">
+    <div class="mb-3">
+      <label for="title" class="form-label">Nombre del producto:</label>
+      <input
+        type="text"
+        class="form-control"
+        id="title"
+        placeholder="Ingrese el nombre del producto..."
+      />
+    </div>
+    <div class="mb-3">
+      <label for="description" class="form-label">Descripción:</label>
+      <textarea
+        class="form-control"
+        placeholder="Descripción del producto..."
+        id="description"
+        style="height: 80px"
+      ></textarea>
+    </div>
+    <div class="mb-3">
+      <label for="code" class="form-label">Código de producto:</label>
+      <input
+        type="text"
+        class="form-control"
+        id="code"
+        placeholder="Ingrese el código único del producto..."
+      />
+    </div>
+    <div class="mb-3">
+      <label for="price" class="form-label">Precio:</label>
+      <input
+        type="number"
+        class="form-control"
+        id="price"
+        placeholder="Ingrese el precio del producto..."
+      />
+    </div>
+    <div class="mb-3">
+      <label for="stock" class="form-label">Stock:</label>
+      <input
+        type="number"
+        class="form-control"
+        id="stock"
+        placeholder="Ingrese el stock del producto..."
+      />
+    </div>
+    <div class="mb-3">
+      <label for="category" class="form-label">Categoría:</label>
+      <input
+        type="text"
+        class="form-control"
+        id="category"
+        placeholder="Ingrese la categoria del producto..."
+      />
+    </div>
+    <div class="mb-3">
+      <label for="thumbnail" class="form-label">Imagen:</label>
+      <input
+        type="text"
+        class="form-control"
+        id="thumbnail"
+        placeholder="Ingrese la ruta de la imagen..."
+      />
+    </div>
+    <button type="submit" class="btn btn-primary" id="submit">Crear producto</button>
+  </form>
+  <div class="list-group list" id="products-list"></div>
+</main>

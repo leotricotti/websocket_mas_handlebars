@@ -1,0 +1,17 @@
+.container {
+  width: 100%;
+  max-width: 100% !important;
+  background-color: #f2f2f2;
+}
+
+.list {
+  padding: 3rem !important;
+  max-width: 480px;
+  margin: 0 auto !important;
+}
+
+.title {
+  color: #004d9c;
+  padding: 0 0 0.5rem 0;
+  text-decoration: underline;
+}
